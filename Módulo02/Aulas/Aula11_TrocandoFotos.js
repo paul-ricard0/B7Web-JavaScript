@@ -1,5 +1,5 @@
 function trocarImagem(arquivo, nomePersonagem){
-    document.querySelector('.imagem').setAttribute('src', 'imagens/' +arquivo);
+    document.querySelector('.imagem').setAttribute('src', 'tools/imagens/' +arquivo);
     document.querySelector('.imagem').setAttribute('nomePersonagem', nomePersonagem);
 }
 
