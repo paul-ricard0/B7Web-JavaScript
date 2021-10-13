@@ -1,0 +1,24 @@
+/**
+#titulo{
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+
+#campo{
+    background-color: #e2e2e2;
+    color: blueviolet;
+    margin-left: 50px;
+}
+**/
+
+body{
+    background-color: rgb(87, 81, 81);
+}
+
+.imagem{
+    height: 300px;
+    
+}

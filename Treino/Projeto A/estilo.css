@@ -1,0 +1,124 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+                                            /*  TOPO     */
+
+.topo{
+    height: 50px;
+    background-color: #353535;
+}
+
+.topomil{
+    width: 1000px;
+    margin: auto;       /* PARA DEIXAR TUDO NO MEIO DO SITE  */
+    color: white;
+}
+
+.logomarca{
+    float: left;        /*PARA DEIXAR ELA GRUDADA NA ESQUERDA */
+    font-size: 24px;
+    line-height: 50px;   /*O TAMANHO DA ALTURA DA LINHA É 50PX PARA DEIXAR ELA NO MEIO JÁ QUE A ALTUTA DO .TOPO É 50*/
+}   
+.menu{
+    float: right;
+}
+.menu ul, .menu li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.menu li{
+    float: left;         /*PARA UMA FICAR AO LADO DA OUTRA*/
+    line-height: 50px;  /*PARA DEIXAR CENTRALIZADO VERTICALMENTE COMO A LOGOMARCA*/
+    font-size: 14px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu li:hover{
+    background-color: #3480c1;
+}
+
+                                                        /* MEIO */
+.meio{
+    height: 300px;
+    background-color: #347aba;
+}
+.meiomil{
+    width: 1000px;
+    color: white;
+    margin: auto;        /*PARA DEIXAR AS COISA NO MEIO DA TELA */
+}
+.meioesquerda{
+    float: left;        /*PARA DEIXAR DO LADO ESQUERDO*/
+}
+.meiodireita{
+    float: right;      /*PARA DEIXAR DO LADO DIREITO*/
+}
+.meiodireita img{
+    margin-right: 55px;    /*PARA DA UMA MARGIN PELA DIREITA*/
+}
+.frase1{
+    font-size: 48px;
+    color: white;
+    margin-top: 60px;    /*TER UMA MARGIN PARA CIMA*/
+}
+.frase2{
+    font-size: 20px;
+    color: white;
+}
+.botao{
+    background-color: #ffc001;
+    font-size: 20px;
+    height: 56px;
+    width: 282px;
+    text-align: center;       /*PARA ALINHAR HORIXONTAMENTE*/
+    line-height: 56px;        /*PARA ALINNHAR VERTICALMENTE*/
+    margin-top: 20px;         /*PARA TER UMA MARGIN ENTRE O BOTAO E A FRASE*/
+    border-radius: 10px;      /*PARA DEIXAR REDONDO*/
+}
+.botao a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+                                                            /* CONTEUDO */
+.conteudomil{
+    width: 1000px;
+    margin: auto;
+}            
+.outrosprodutos{
+    font-size: 20px;
+    height: 90px;
+    text-align: center;     /*PARA ALINHAR COM O CENTRO HORIZONTAL*/
+    line-height: 90px;      /*PARA ALINHAR VERTICALMENTE*/
+}
+.fotos img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+                                                                /*RODAPÉ*/
+
+.rodape{
+    background-color: #347aba;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 40px;
+}

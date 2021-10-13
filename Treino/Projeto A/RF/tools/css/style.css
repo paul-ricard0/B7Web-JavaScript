@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    background-color: #353535;
+    height: 50px;
+}
+.topint{
+    width: 1000px;
+    margin: auto;
+
+}
+.logomarca{
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.menu li:hover{
+    background-color: #3480c1 ;
+}
+
+
+.mid{
+    background-color:#347aba;
+    height: 300px;
+    color: white;
+}
+.midint{
+    margin: auto;
+    width: 1000px;
+}
+.leftside{
+    float: left;
+}
+.phrase1{
+    padding-top: 60px;
+    font-size: 48px;
+}
+.phrase2{
+    font-size: 20px;
+}
+.button{
+    background-color: #ffc001;
+    margin-top: 20px;
+    line-height: 55px;
+    height: 55px;
+    width: 280px;
+    border-radius: 10px;
+    text-align: center;
+}
+.button a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+.rightside{
+    float: right;
+}
+.rightside img{
+    margin-right: 55px;
+}
+.bannerint{
+    width: 1000px;
+    margin: auto;
+}
+.bannerphrase{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+}
+.bannerphoto img{
+    margin-right: 22px;
+}
+.footer{
+    background-color: #3479ba;
+}
+.footerint{
+    width: 1000px;
+    margin: auto;
+    height: 50px;
+    margin-top:42px;
+}
+.footerphrase{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}

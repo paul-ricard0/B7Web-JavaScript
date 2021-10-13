@@ -1,0 +1,26 @@
+
+.botao
+    fundo #ffc001
+    fonte 20px
+    altura 56px
+    largura 282px;
+    alinhamento 56px     
+    margem top: 20px         
+    borda  10px      
+
+      
+.outrosprodutos{
+    fonte 20px
+    altura 90px
+    alinhamento 90px;      
+}
+.fotos img{
+    margem 10px
+    margem 10px
+}
+.rodape{
+    fundo #347aba
+    altura 50px
+    alinhametno 50px
+    margem 40px
+}
