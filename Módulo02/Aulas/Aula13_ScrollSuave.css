@@ -17,5 +17,5 @@
     bottom: 25px;
     z-index: 999; /* para ficar a cima de todo mundo*/
     cursor: pointer; /* para mostrar que é clicavel */
-    display: none;
+
 }
